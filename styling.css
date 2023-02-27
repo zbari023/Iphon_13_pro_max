@@ -1,0 +1,51 @@
+body{
+   
+    font-family: 'Tilt Warp', cursive;
+}
+.allcontainer{
+    background: black;
+    min-height: 100vw;
+}
+.nav-link {
+
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-link:hover {
+    background: white;
+    color: black;
+    border-radius: 20px;
+    
+}
+.btn1 {
+
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    border-radius: 20px;
+    transition: ease 0.4;
+}
+
+.btn1:hover {
+    background: gray;
+    color: white;
+    
+}
+.imghov{
+width: 40px;
+transition: 0.5s;
+cursor: pointer;
+}
+.imghov:hover{
+    transform: scale(1.2);
+}
+
+.navbar-toggler {
+    color: white;
+    background-color: white;
+
+}
